@@ -12,12 +12,12 @@
         &--next {
             right: 0;
             background: rgb(41,94,106);
-            background: linear-gradient(270deg, rgba(41,94,106,0.5) 50%, rgba(41,94,106,0) 100%);
+            background: linear-gradient(270deg, rgba($color: $primary, $alpha: 0.7) 50%, rgba($color: $primary, $alpha: 0) 100%);
         }
         &--prev {
             left: 0;
             background: rgb(41,94,106);
-            background: linear-gradient(90deg, rgba(41,94,106,0.5) 50%, rgba(41,94,106,0) 100%);
+            background: linear-gradient(90deg,  rgba($color: $primary, $alpha: 0.7) 50%,  rgba($color: $primary, $alpha: 0) 100%);
         }
         &:hover {
             background: transparent;

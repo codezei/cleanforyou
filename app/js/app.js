@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
         type: "progressbar",
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".works__button--next",
+        prevEl: ".works__button--prev",
       },
       modules: [Navigation, Pagination],
       breakpoints: {
@@ -47,21 +47,21 @@ document.addEventListener("DOMContentLoaded", () => {
         type: "progressbar",
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".reviews__button--next",
+        prevEl: ".reviews__button--prev",
       },
       modules: [Navigation, Pagination],
-      // breakpoints: {
-      // 	576: {
-      // 	  slidesPerView: 2,
-      // 	},
-      // 	992: {
-      // 	  slidesPerView: 3,
-      // 	},
-      // 	1440: {
-      // 	  slidesPerView: 4,
-      // 	},
-      //   },
+      breakpoints: {
+      	768: {
+      	  slidesPerView: 2,
+      	},
+      	992: {
+      	  slidesPerView: 3,
+      	},
+      	// 1440: {
+      	//   slidesPerView: 4,
+      	// },
+        },
     });
   }
   function hoverProcessItems() {
